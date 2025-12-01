@@ -25,7 +25,7 @@ beautifulsoup4
 cloudscraper
 cryptography>=41.0.0
 codext>=1.15.6
-chardet
+chardet==5.2.0
 dnspython
 duckduckgo-search
 fastapi
