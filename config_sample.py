@@ -45,7 +45,7 @@ AUTHORIZED_CHATS = (
 )
 
 # Upload
-DEFAULT_UPLOAD = "gd"  # Default upload destination: 'gd' for Google Drive, 'rc' for rclone, 'ddl' for Direct Download Links
+DEFAULT_UPLOAD = "rc"  # Default upload destination: 'gd' for Google Drive, 'rc' for rclone, 'ddl' for Direct Download Links
 UPLOAD_PATHS = {}  # Custom upload paths for different file types
 
 # Hyper Download
@@ -86,10 +86,10 @@ MEDIA_STORE = False  # Enable media store link
 AD_BROADCASTER_ENABLED = (
     False  # Enable/disable automatic ad broadcasting from FSUB channels to users
 )
-AI_ENABLED = True  # Enable/disable AI functionality
+AI_ENABLED = False  # Enable/disable AI functionality
 IMDB_ENABLED = True  # Enable/disable IMDB functionality
 TMDB_ENABLED = True  # Enable/disable TMDB functionality
-TRUECALLER_ENABLED = True  # Enable/disable Truecaller functionality
+TRUECALLER_ENABLED = False  # Enable/disable Truecaller functionality
 MEDIA_SEARCH_ENABLED = True  # Enable/disable media search feature
 
 # Media Search Settings
