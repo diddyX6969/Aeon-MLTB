@@ -8,7 +8,7 @@ TELEGRAM_HASH = ""  # Get this from my.telegram.org
 DATABASE_URL = ""  # MongoDB URI for storing user data and preferences
 
 # Update
-UPSTREAM_REPO = ""  # Repository URL for updates
+UPSTREAM_REPO = "https://github.com/diddyX6969/Aeon-MLTB.git"  # Repository URL for updates
 UPSTREAM_BRANCH = "extended"  # Branch to use for updates
 
 # Branding Settings
