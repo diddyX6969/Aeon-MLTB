@@ -7,28 +7,13 @@ TELEGRAM_HASH = ""  # Get this from my.telegram.org
 # SEMI-REQUIRED, WE SUGGEST TO FILL IT FROM MONGODB
 DATABASE_URL = ""  # MongoDB URI for storing user data and preferences
 
-# Heroku config for get BASE_URL automatically
-HEROKU_APP_NAME = ""
-HEROKU_API_KEY = ""
-
-# AUTO REDEPLOY CONFIG
-HEROKU_EMAIL = ""  # Your Heroku account email
-HEROKU_TEAM_NAME = (
-    ""  # Optional: Your Heroku team name (leave empty if not using teams)
-)
-HEROKU_REGION = (
-    "eu"  # Heroku deployment region: "eu" for Europe or "us" for United States
-)
-AUTO_REDEPLOY = False  # Enable/disable automatic redeployment on schedule
-REDEPLOY_INTERVAL_DAYS = 7  # Auto redeploy interval in days (1, 3, 7, 14, or 30)
-
 # Update
-UPSTREAM_REPO = "https://github.com/AeonOrg/Aeon-MLTB"  # Repository URL for updates
+UPSTREAM_REPO = ""  # Repository URL for updates
 UPSTREAM_BRANCH = "extended"  # Branch to use for updates
 
 # Branding Settings
-CREDIT = "Powered by @aimmirror"  # Credit text shown in status messages and RSS feeds (default: "Powered by @aimmirror")
-OWNER_THUMB = "https://graph.org/file/80b7fb095063a18f9e232.jpg"  # Default thumbnail URL for owner (accepts Telegram file links)
+CREDIT = ""  # Credit text shown in status messages and RSS feeds (default: "Powered by @aimmirror")
+OWNER_THUMB = ""  # Default thumbnail URL for owner (accepts Telegram file links)
 
 # Telegram
 USER_SESSION_STRING = (
